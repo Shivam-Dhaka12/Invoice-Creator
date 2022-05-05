@@ -8,10 +8,21 @@
 }
 
 
-main {
-    width: 70%;
-    margin: 20px auto; 
+@media screen and (max-width: 600px) {
+    main {
+      width:auto;
+      box-sizing: border-box;
+      padding: 0 5px;
+    }
+  }
+
+@media screen and (min-width: 601px){
+    main {
+        width: 70%;
+        margin: 30px auto 0; 
+    }
 }
+
 
 header {
     background-color: #F5F5F5;
@@ -61,8 +72,8 @@ header p {
 }
 
 .btn {
-    width: 20%;
-    padding: 10px;
+    width: 30%;
+    padding: 10px 0;
     border-radius: 7px;
     border: 1px solid #D5D4D8;
     background-color: white;
