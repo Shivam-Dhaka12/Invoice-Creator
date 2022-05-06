@@ -119,9 +119,27 @@ footer {
     width: 100%;
 }
 
+.box {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+}
+
+#notes {
+    width: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 15pxx */
+    color: #4A4E74;
+}
+
 #total {
     margin: 20px 0;
-    width: 100%;
+    width: 50%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -133,6 +151,7 @@ footer {
 }
 
 #send-btn {
+    cursor: pointer;
     margin: 40px auto 0;
     width: 100%;
     display: flex;
@@ -143,6 +162,14 @@ footer {
     justify-content: center;
     padding: 10px 0;
     align-items: center;
+}
+
+#send-btn:hover {
+    background-color: #3467d6;
+}
+
+#send-btn:active {
+    box-shadow: 0 0 3px rgb(113, 113, 113);
 }
 
 .send-btn-items {
@@ -156,3 +183,31 @@ footer {
     line-height: 150%;
 }
 
+#list {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.list-item {
+    width: 100%;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 100%;
+    padding: 20px 0 0 0;
+}
+
+.task {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #4A4E74;
+}
+
+.price {
+    text-align: right;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 83%;
+    color: #918E9B;
+}
