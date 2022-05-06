@@ -10,6 +10,9 @@ let services = []
 let sum = 0;
 
 sendbtnEl.addEventListener("click" , function () {
+    washcarEL.disabled = false;
+    mowlawnEL.disabled = false;
+    pullweedsEL.disabled = false;
     listEl.innerHTML = "";
     sum = 0;
     notesEl.textContent = "";
