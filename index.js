@@ -11,11 +11,11 @@ let sum = 0;
 
 sendbtnEl.addEventListener("click" , function () {
     washcarEL.disabled = false;
-    washcarEL.border = "1px solid #D5D4D8";
+    washcarEL.style.border = "1px solid #D5D4D8";
     mowlawnEL.disabled = false;
-    mowlawnEL.border = "1px solid #D5D4D8";
+    mowlawnEL.style.border = "1px solid #D5D4D8";
     pullweedsEL.disabled = false;
-    pullweedsEL.border = "1px solid #D5D4D8";
+    pullweedsEL.style.border = "1px solid #D5D4D8";
     listEl.innerHTML = "";
     sum = 0;
     notesEl.textContent = "";
